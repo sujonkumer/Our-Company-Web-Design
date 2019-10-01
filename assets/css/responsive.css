@@ -1,0 +1,887 @@
+@media only screen and (max-width: 990px) 
+{
+.hederMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+  }
+ .logo h1 {
+  font-size: 20px;
+}
+  .justifyalign{
+     display: block;
+  }
+  .fa-align-justify{
+    color:#fff;
+    font-size: 15px;
+  }
+  .logo p{
+    display: block;
+    color:#ccc;
+    font-size: 12px;
+  }
+  .searchTggle{
+     display: block;
+  }
+  .fa-search{
+     display: block !important;
+     font-size: 15px;
+  }
+  .navBar {
+    display: none;
+  }
+  /*Header section End*/
+
+/*Slider Section Starat*/
+.prenSlider p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  padding:10px 20px;
+}
+/*Slider Section Start*/
+/*Our Service Section Start*/
+.resService {
+  background: #fff;
+  height: 100%;
+  padding: 50px 10px;
+}
+.softwere, .wordPress, .ecommerce, .webDevelopment, .newsPortalDevelopment, .Prescription {
+  height: 300px;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 20px -1px #ccc;
+}
+.softwereMain {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+/*feature section Start*/
+.featuredMain {
+  background: #eee;
+  height: 100%;
+  padding: 50px 0px;
+}
+.featureDemo {
+  display: grid;
+  justify-content: space-around;
+  padding: 10px 40px;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+}
+.demoCanvas, .demoEcomerce, .demoblog {
+  width: 100%;
+  background: #fff;
+}
+.demoCanvas img, .demoEcomerce img, .demoblog img {
+  width: 100%;
+  height: 200px;
+}
+.liveDemo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #D6C21A;
+  align-items: center;
+  border-radius: 0px 0px 15px 15px;
+}
+/*Feature sectioun end*/
+
+/*About su Section Start*/
+.prenDiv {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 35px;
+  padding: 10px 0px;
+}
+.graphics, .branding, .wevdesign {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 30px 10px;
+}
+/*About Section Start*/
+.conhade2 h1{
+  font-size: 20px;
+}
+.conhade2 h1 span{
+  font-size: 20px;
+  color:#D6C21A;
+}
+.conhade2 ul li a {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+}
+.demo3img1 img {
+  height: 204px;
+  width: 100%;
+  border-radius: 5px;
+}
+.demo2 h1 {
+  font-size: 25px;
+  color: #444;
+  text-align: center;
+  padding: 31px 0px;
+  margin-top: 14px;
+}
+.demo3img1 img {
+  height: 204px;
+  width: 100%;
+  border-radius: 5px;
+  padding:0px 20px;
+}
+.demo2 input[type="text"] {
+  padding: 10px 10px;
+  border: 1px solid #f1f3a4;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.demo2 input[type="email"] {
+  /* width: 300px; */
+  padding: 10px 10px;
+  border: 1px solid #f1f3a4;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.demo2 input[type="password"] {
+  /* width: 300px; */
+  padding: 10px 10px;
+  border: 1px solid #f1f3a4;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+/*Our Work Section Start*/
+
+/*footer Section Start*/
+.footerMain {
+  background: url("../image/map.jpg");
+  height: 100%;
+  width: 100%;
+  padding: 70px 0px;
+}
+.flxFooter {
+  display: grid;
+  padding: 10px 20px;
+  grid-template-columns: auto auto;
+}
+/*footer Section end*/
+}
+@media only screen and (max-width: 800px) 
+{
+  .hederMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+  }
+ .logo h1 {
+  font-size: 20px;
+}
+  .justifyalign{
+     display: block;
+  }
+  .fa-align-justify{
+    color:#fff;
+    font-size: 15px;
+  }
+  .logo p{
+    display: block;
+    color:#ccc;
+    font-size: 12px;
+  }
+  .searchTggle{
+     display: block;
+  }
+  .fa-search{
+     display: block !important;
+     font-size: 15px;
+  }
+  .navBar {
+    display: none;
+  }
+  /*Header section End*/
+
+  /*Slider section Start*/
+  .sliderMain {
+  background: #1E1E27;
+  height: 200px;
+}
+.prenSlider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.prenSlider h1 {
+  color: #fff;
+  font-size: 21px;
+}
+.prenSlider h1 span{
+  color:#D6C21A;
+  font-size:20px;
+}
+.prenSlider p {
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  padding: 9px 10px;
+}
+.fa-desktop {
+  color: #D6C21A;
+  margin-top: 10px;
+  font-size: 15px;
+}
+ /*Slider section End*/
+
+/*Responcevie Servce Section Start*/
+.resService {
+  background: #fff;
+  height: 100%;
+}
+.resService h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.softwereMain{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+
+}
+.softwere, .wordPress, .ecommerce, .webDevelopment, .newsPortalDevelopment, .Prescription {
+  height: 280px;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 20px -1px #ccc;
+  margin-top: 40px;
+}
+.softwere p, .wordPress p, .ecommerce p, .webDevelopment p, .newsPortalDevelopment p, .Prescription p {
+  color: #444;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-align: left;
+}
+.softwere p span, .wordPress p span, .ecommerce p span, .webDevelopment p span, .newsPortalDevelopment p span, .Prescription p span{
+  font-size: 20px;
+  color:#444;
+}
+
+.service_button {
+  text-align: center;
+  margin-top: 45px;
+}
+/*Responcevie Servce Section End*/
+
+  /*Our featrue Product Section Start*/
+.featuredMain {
+  display: block;
+  background: #fff;
+  height: 100%;
+}
+.featuredMain h1{
+  color:#D6C21A;
+  text-align: center;
+  font-size: 25px;
+}
+.featuredMain p {
+  color: #ccc;
+  padding: 10px 11px;
+  font-size: 12px;
+}
+.featureDemo{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.demoCanvas, .demoEcomerce, .demoblog {
+  margin: 30px 0px;
+  width: 100%;
+}
+.demoCanvas p span, .demoEcomerce p span, .demoblog p span{
+  font-size: 12px;
+  padding: 5px 0px;
+}
+.demoCanvas h3, .demoEcomerce h3, .demoblog h3 {
+  color: #444;
+  padding: 10px 8px;
+}
+.demoCanvas p, .demoEcomerce p, .demoblog p{
+    color:#ccc;
+    line-height: 20px;
+    text-align: left;
+}
+.demoCanvas img, .demoEcomerce img, .demoblog img {
+  width: 100%;
+  height: 200px;
+}
+.liveDemo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #D6C21A;
+  align-items: center;
+  border-radius: 0px 0px 15px 15px;
+}
+
+
+/*Our Featured Products Section End*/
+
+/*Count section Start*/
+.counter{
+  display: block;
+  background:#1E1E27; 
+  height: 230px;
+  padding: 50px 10px;
+}
+.slideerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slideerContent h1 {
+  font-size: 25px;
+}
+.slideerContent p {
+  text-align: center;
+  color: #ccc;
+  font-size: 12px;
+  padding: 6px 13px;
+}
+.count{
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 30px;
+}
+.col{
+    padding: 10px 0px;
+}
+.col p {
+  color: #ccc;
+  line-height: 17px;
+  font-size: 12px;
+}
+.num {
+  color: #D6C21A;
+  font-size: 20px;
+  font-weight: 700;
+}
+/*Member Section Start*/
+
+.member h1{
+   font-size: 25px;
+}
+
+.member p {
+  font-size: 12px;
+  padding: 0px 18px;
+}
+.overLay2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.memberPic4 {
+  width: 100%;
+}
+ 
+/*Member Of counter End*/
+
+/*Our Clients Section Start*/
+
+.clientsMain h1{
+  font-size: 25px;;
+}
+.clientsMain h1 span{
+  color:#D6C21A;
+}
+.clientsMain p {
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  padding: 6px 10px;
+}
+
+
+.clientsll img {
+  width: 40px;
+  padding: 10px 7px;
+}
+.clientsll img:hover{
+  transition: .5s;
+  transform: rotate(20deg);
+}
+/*Our Clients Section End*/
+
+/*Continer Section Start*/
+.containerMain{
+  background:#fff; 
+  display: block;
+  height: 100%;
+  padding: 50px 0px;
+}
+.conHede{
+   padding: 5px 0px;
+   text-align: center !important;
+}
+.conHede h1 {
+  color: #000;
+  padding: 5px 5px;
+  font-size: 20px;
+ 
+}
+.conHede h1 span{
+  color:#D6C21A;
+}
+.conHede p {
+  color: #444;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  padding: 10px 24px;
+}
+.prenDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 60px;
+}
+.graphics, .branding, .wevdesign {
+  width: 100%;
+  height: 200px;
+  margin: 30px 0px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 100% height:300px;
+}
+.graphics p, .wevdesign p, .branding p{
+  font-size: 12px;
+}
+.graphics p span, .wevdesign p span, .branding p span {
+ 
+  font-size: 20px;
+  
+}
+  .flxword{
+    align-items:center;
+  }
+  .contentMul{
+    display: none;
+  }
+  .mainconent3{
+    width: 100%;
+  }
+  /*Continer Section end*/
+
+.containerMain2{
+  display: none;
+}
+
+/*Footer Section Start*/
+.footerMain {
+  background: url("../image/map.jpg");
+  height: 100%;
+  width: 100%;
+  padding: 70px 0px;
+}
+.flxFooter {
+  display: grid;
+  padding: 10px 20px;
+  grid-template-columns: auto auto;
+}
+/*Footer Section End*/
+.flowusMain1{
+background: #1E1E27;
+border-top:1px solid #fff;
+/*Home page end*/
+
+  /*Header section Start*/
+ } 
+@media only screen 
+  and (max-device-width: 380px) 
+ {
+  	/*Header section Start*/
+    .hederMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+  }
+ .logo h1 {
+  font-size: 20px;
+}
+  .justifyalign{
+     display: block;
+  }
+  .fa-align-justify{
+    color:#fff;
+    font-size: 15px;
+  }
+  .logo p{
+    display: block;
+    color:#ccc;
+    font-size: 12px;
+  }
+  .searchTggle{
+     display: block;
+  }
+  .fa-search{
+     display: block !important;
+     font-size: 15px;
+  }
+  .navBar {
+    display: none;
+  }
+  /*Header section End*/
+
+  /*Slider section Start*/
+  .sliderMain {
+  background: #1E1E27;
+  height: 200px;
+}
+.prenSlider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.prenSlider h1 {
+  color: #fff;
+  font-size: 21px;
+}
+.prenSlider h1 span{
+  color:#D6C21A;
+  font-size:20px;
+}
+.prenSlider p {
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  padding: 9px 10px;
+}
+.fa-desktop {
+  color: #D6C21A;
+  margin-top: 10px;
+  font-size: 15px;
+}
+ /*Slider section End*/
+
+/*Responcevie Servce Section Start*/
+.resService{
+   background:#fff;
+   height: 2100px;
+}
+.resService h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.resService h1 span{
+  color:#D6C21A;
+}
+.resService p {
+  color: #ccc;
+  text-align: center;
+  padding: 15px 10px;
+}
+.softwereMain{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+
+}
+.softwere, .wordPress, .ecommerce, .webDevelopment, .newsPortalDevelopment, .Prescription {
+  height: 280px;
+  width:300px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 20px -1px #ccc;
+  margin-top: 40px;
+}
+.softwere p, .wordPress p, .ecommerce p, .webDevelopment p, .newsPortalDevelopment p, .Prescription p {
+  color: #444;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-align: left;
+}
+.softwere p span, .wordPress p span, .ecommerce p span, .webDevelopment p span, .newsPortalDevelopment p span, .Prescription p span{
+  font-size: 20px;
+  color:#444;
+}
+.service_button {
+  text-align: center;
+  margin-top: 45px;
+}
+/*Responcevie Servce Section End*/
+
+  /*Our featrue Product Section Start*/
+.featuredMain{
+   display: block;
+   background:#fff;
+   height: 1570px;
+}
+.featuredMain h1{
+  color:#D6C21A;
+  text-align: center;
+  font-size: 25px;
+}
+.featuredMain p {
+  color: #ccc;
+  padding: 10px 11px;
+  font-size: 12px;
+}
+
+.featureDemo{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.demoCanvas, .demoEcomerce, .demoblog {
+  margin: 30px 0px;
+  width: 280px;
+}
+.demoCanvas p span, .demoEcomerce p span, .demoblog p span{
+  color:#D6C21A;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+.demoCanvas h3, .demoEcomerce h3, .demoblog h3 {
+  color: #444;
+  padding: 10px 8px;
+}
+.demoCanvas p, .demoEcomerce p, .demoblog p{
+    color:#ccc;
+    line-height: 20px;
+    text-align: left;
+}
+.demoCanvas img , .demoEcomerce img, .demoblog img{
+  width: 280px;
+  height: 200px;
+}
+
+/*Our Featured Products Section End*/
+
+/*Count section Start*/
+.counter{
+  display: block;
+  background:#1E1E27; 
+  height: 230px;
+  padding: 50px 10px;
+}
+.slideerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slideerContent h1 {
+  text-align: center;
+  color: #D6C21A;
+  font-size: 25px;
+  padding: 10px 0px;
+}
+.slideerContent p {
+  text-align: center;
+  color: #ccc;
+  font-size: 12px;
+  padding: 6px 13px;
+}
+.count{
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 30px;
+}
+.col{
+   border-top: 1px solid #ccc;
+    padding: 10px 0px;
+}
+.col p {
+  color: #ccc;
+  line-height: 17px;
+  font-size: 12px;
+}
+.num {
+  color: #D6C21A;
+  font-size: 20px;
+  font-weight: 700;
+}
+/*Member Section Start*/
+.member{
+  background: #f0f0f0;
+   padding: 50px 0px;
+   height: 580px;
+}
+.member h1{
+  color:#000;
+   font-size: 25px;
+  text-align: center;
+  padding:10px 10px;
+}
+.member h1 span{
+  color:#D6C21A;
+}
+.member p {
+  color: #444;
+  text-align: center;
+  font-size: 12px;
+  padding: 0px 18px;
+}
+.memberMan{
+
+}
+.overLay2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.memberPic4 {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding: 30px 0px;
+}
+
+/*Member Of counter End*/
+
+/*Our Clients Section Start*/
+.clientsMain{
+  padding: 50px 10px;
+  text-align: center;
+}
+.clientsMain h1{
+  font-size: 25px;;
+}
+.clientsMain h1 span{
+  color:#D6C21A;
+}
+.clientsMain p {
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  padding: 6px 10px;
+}
+/*Our Clients Section End*/
+
+/*Continer Section Start*/
+.containerMain{
+  background:#fff; 
+  display: block;
+  height: 1050px;
+  padding: 50px 0px;
+}
+.conHede{
+   padding: 5px 0px;
+   text-align: center !important;
+}
+.conHede h1 {
+  color: #000;
+  padding: 5px 5px;
+  font-size: 20px;
+ 
+}
+.conHede h1 span{
+  color:#D6C21A;
+}
+.conHede p {
+  color: #ccc;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center !important;
+}
+.prenDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.graphics, .branding, .wevdesign {
+  width: 260px;
+  height: 200px;
+  margin: 30px 0px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 100% height:300px;
+}
+.graphics p, .wevdesign p, .branding p{
+  font-size: 12px;
+  color:#444;
+  padding: 10px 10px;
+}
+.graphics p span, .wevdesign p span, .branding p span {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.fa-drafting-compass, .fa-ruler, .fa-edit{
+  color:#D6C21A;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+
+  .flxword{
+    align-items:center;
+  }
+  .contentMul{
+    display: none;
+  }
+  .mainconent3{
+    width: 100%;
+  }
+  /*Continer Section end*/
+
+.containerMain2{
+  display: none;
+}
+
+/*Footer Section Start*/
+.footerMain {
+  background: url("../image/map.jpg");
+  height: 100%;
+  width: 100%;
+  padding: 70px 0px;
+}
+.flxFooter {
+  display: grid;
+  padding: 10px 20px;
+  grid-template-columns: auto auto;
+}
+.footer1, .footer2, .footer3, .footer4, .footer5{
+  width: 100%
+
+/*Home page end*/
+}

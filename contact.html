@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Soft.com</title>
+    <!--Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- animate css -->
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--Bootstrap css -->
+ <!--    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min"> -->
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Responsive-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <!--Header Section Start-->
+    <section>
+      <header>
+        <div class="hederMain sticky">
+          <!--Responsive Max-Width 600-->
+          <div class="justifyalign">
+            <i class="fas fa-align-justify"></i>
+          </div>
+          <!--Responsive Max-Width 600 End-->
+          <div class="logo">
+            <h1>Web <span>Soft</span></h1>
+            <p>Leader of Softwere Department</p>
+          </div>
+          <!--Responsive Max-Width 600-->
+          <div class="searchTggle">
+            <a href="#"><i class="fas fa-search toggle"></i></a>
+          </div>
+          <!--Responsive Max-Width 600 End-->
+          <div class="navBar">
+            <ul>
+              <li><a  id="active" href="#">Softwere <i class="fas fa-angle-down"></i></a></li>
+              <li><a  href="#">Mobile App<i class="fas fa-angle-down"></i></a></li>
+              <li><a  href="#">Template <i class="fas fa-angle-down"></i></a></li>
+              <li><a  href="#">Theme</a> <i class="fas fa-angle-down"></i></li>
+              <li><a  href="#">Service <i class="fas fa-angle-down"></i></a></li>
+              <li><a  href="#">Our Work <i class="fas fa-angle-down"></i></a></li>
+              <li><a  href="#">Contact</a></li>
+              <a href="#"><i class="fas fa-search toggle"></i></a>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!--Header Section End-->
+      <section>
+        <div class="container-fluid">
+           <div class="container"> 
+             <div class="row">
+                <div class="col-md-12">
+                    <div class="contactusMain">
+                       <h1 class="display-1">Hello,How can Help You</h1>
+                    </div>  
+                </div>
+             </div> 
+           </div>
+        </div>
+      </section>
+      
+      <!--Footer Section Start-->
+      <section>
+        <div  class="footerMain">
+          <h1>Contact Us</h1>
+          <div class="flxFooter">
+            <div class="footer1">
+              <h6>Service</h6>
+              <a href="#"><p>Mobile App</p></a>
+              <a href="#"><p>Web Development</p></a>
+              <a href="#"><p>Markting</p></a>
+              <a href="#"><p>Gaming</p></a>
+              <a href="#"><p>Wordpress Theme Development</p></a>
+            </div>
+            <div class="footer2">
+              <h6>Information</h6>
+              <a href="#"><p>About us</p></a>
+              <a href="#"><p>Customer Service</p></a>
+              <a href="#"><p>New Collection</p></a>
+              <a href="#"><p>Best Sellers</p></a>
+              <p>Privacy policy</p>
+            </div>
+            <div class="footer3">
+              <br><br>
+              <a href="#"> <p>My account</p>
+              <a href="#"><p><span style="color:#D6C21A;">-My cart</span></p>
+              <a href="#"><p>Login</p>
+              <a href="#"><p>Wishlist</p>
+              <a href="#"><p>Checkout</p>
+            </div>
+            <div class="footer4">
+              <br><br>
+              <a href="#"><p>Getting Started</p>
+              <a href="#"><p>FAQs</p>
+              <a href="#"><p>Buying Guide</p>
+              <a href="#"><p>Order Returns</p>
+              <a href="#"><p>Affiliate Program</p>
+            </div>
+            <div class="footer5">
+              <br><br>
+              <p><i class="fas fa-phone-volume"></i>01738046545</p>
+              <p><span>Address:</span>Dhanmondi,Dhaka-1205</p>
+              <p><span>Email:</span> <span style="color:#D6C21A;">websoft@gamil.com</span></p>
+              <p><span>Whats app:</span>01738046545</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+<!-- Join now our team Section End -->
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.4.0.min.js"></script>
+
+<!-- owl carousel js -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- Fontawesome js -->
+<script  src="assets/js/all.min.js"></script>
+ <!--Bootstrap-->
+<script  src="assets/js/bootstrap.min.js"></script>
+<!-- wow js -->
+<script  src="assets/js/wow.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".owl-carousel").owlCarousel({
+margin:10,
+loop:true,
+nav:true,
+dots:true,
+autoplay:true,
+autoplayTimeout:3000,
+responsive:{
+0:{
+items:1
+},
+400:{
+items:1
+},
+600:{
+items:2
+},
+1000:{
+items:3
+}
+}
+});
+});
+</script>
+<script>
+new WOW().init();
+</script>
+<script>
+$('.num').each(function () {
+$(this).prop('Counter',4).animate({
+Counter: $(this).text()
+}, {
+duration: 2000,
+easing: 'swing',
+step: function (now) {
+$(this).text(Math.ceil(now));
+}
+});
+});
+</script>
+</body>
+</html>
